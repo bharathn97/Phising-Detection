@@ -1,6 +1,5 @@
 import streamlit as st
 import requests
-import validators
 import json
 import os
 
