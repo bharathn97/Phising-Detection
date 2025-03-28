@@ -165,7 +165,7 @@ def file_upload_page():
     uploaded_file = st.file_uploader("Upload a file", type=["txt"])
     if uploaded_file is not None:
         # Send POST request to the API
-        api_url = "https://b502-34-32-248-237.ngrok-free.app/predict-file"  # Replace with your ngrok link
+        api_url = "https://3cbc-34-87-53-122.ngrok-free.app/predict-file"  # Replace with your ngrok link
         try:
             response = requests.post(api_url, files={"file": uploaded_file})
             if response.status_code == 200:
