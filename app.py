@@ -99,7 +99,7 @@ def url_detection_page():
             st.success("Valid URL!")
             
             # Send POST request to the API
-            api_url = "https://b502-34-32-248-237.ngrok-free.app/predict"  # Replace with your ngrok link
+            api_url = "https://3cbc-34-87-53-122.ngrok-free.app/predict"  # Replace with your ngrok link
             try:
                 response = requests.post(api_url, json={"url": url})
                 if response.status_code == 200:
